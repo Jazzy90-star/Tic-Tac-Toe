@@ -1,0 +1,45 @@
+body {
+  background-image: url(https://img.freepik.com/free-vector/abstract-triangle-pattern-colorful-background_1035-17547.jpg?w=996&t=st=1709242279~exp=1709242879~hmac=b360ffe031327e238bc4e0c4d704d06e5cc5f813fb1a774ccaad19e750de21c3);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  text-align: center;
+  margin-top: 50px;
+  background-color: whitesmoke;
+  opacity: 0.6;
+  padding: 50px;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 10px;
+  padding: 100px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+#status {
+  margin-top: 150px;
+  margin-right: 25px;
+  font-size: xx-large;
+  font-family: cursive;
+}
+h1 {
+  font-family: cursive;
+}
+:root {
+  --orange: hsl(249, 65%, 45%);
+  --winning-blocks: #2d414b;
+}
